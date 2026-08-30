@@ -48,6 +48,11 @@ However this is not always avoidable and they occasionally need manual adjustmen
 When editing a test or adding a new one, try to put it into a separate commit as to not mix input changes with diff changes.
 Retrospectively fixing this requires advanced git rebasing skills, and using a helper tool like [lazygit](https://github.com/jesseduffield/lazygit) is strongly recommended.
 
+### Documenting changes
+
+User-facing changes should be documented for inclusion in the changelog and release notes, either via [changesets](https://knope.tech/reference/concepts/change-file/) or [conventional commits](https://knope.tech/reference/concepts/conventional-commits/).
+The actual `CHANGELOG.md` file should not be edited manually, as it is managed by Knope.
+
 ## Debugging
 
 Short strings can easily be tested with `cabal v2-run --verbose=0 nixfmt -- -w=80 < <(echo $'some code here')`.
