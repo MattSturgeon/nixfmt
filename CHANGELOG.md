@@ -1,5 +1,18 @@
 # Revision history for nixfmt
 
+## 1.5.0 (2026-08-30)
+
+### Features
+
+- **support chained presence checks (a ? b ? c)** by Dyego Aurélio (bf52dec)
+- **support chained presence checks (a ? b ? c) (#433)** by Matt Sturgeon (c697836)
+- **initial knope config** by Matt Sturgeon (4f74fed)
+
+### Fixes
+
+- **exponential parse time for nested set parameter defaults** by Dyego Aurélio (14c006e)
+- **exponential parse time for nested set parameter defaults (#435)** by dyegoaurelio (6a68b45)
+
 ## 1.4.0 -- 2026-07-07
 
 - Added `/*nixfmt:disable*/` and `/*nixfmt:enable*/` comment directives to exclude regions of code from formatting: <https://github.com/NixOS/nixfmt/pull/388>
