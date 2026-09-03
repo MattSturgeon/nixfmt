@@ -8,7 +8,7 @@ regex = '(?m)^version[ \t]*:[ \t]*(?<version>.+)$'
 
 
 [github]
-owner = "NixOS"
+owner = "MattSturgeon"
 repo = "nixfmt"
 
 
