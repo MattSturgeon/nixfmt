@@ -1,5 +1,11 @@
 # Revision history for nixfmt
 
+## 1.5.0 (2026-09-03)
+
+### Features
+
+- **added something critical** by Matt Sturgeon (e640b50)
+
 ## 1.4.0 (2026-07-07)
 
 - Added `/*nixfmt:disable*/` and `/*nixfmt:enable*/` comment directives to exclude regions of code from formatting: <https://github.com/NixOS/nixfmt/pull/388>
