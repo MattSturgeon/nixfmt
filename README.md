@@ -5,6 +5,8 @@ The standard Nix format incorporates artistic formatting and is defined in [stan
 Nixfmt is maintained by the [Nix formatting team](https://nixos.org/community/teams/formatting/).
 This document is the user documentation, see [CONTRIBUTING.md](./CONTRIBUTING.md) for contributor documentation.
 
+Example nonsense change (critical feature)!
+
 ## Installation
 
 > [!NOTE]
