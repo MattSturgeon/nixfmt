@@ -50,7 +50,7 @@ Retrospectively fixing this requires advanced git rebasing skills, and using a h
 
 ### Documenting changes
 
-User-facing changes should be documented for inclusion in the changelog and release notes, either via [changesets](https://knope.tech/reference/concepts/change-file/) or [conventional commits](https://knope.tech/reference/concepts/conventional-commits/).
+User-facing changes should be documented for inclusion in the changelog and release notes, either via [changesets](https://knope.tech/reference/concepts/change-file/) (run `knope document-change`) or [conventional commits](https://knope.tech/reference/concepts/conventional-commits/).
 The actual `CHANGELOG.md` file should not be edited manually, as it is managed by Knope.
 
 ## Debugging
