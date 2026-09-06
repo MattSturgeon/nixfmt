@@ -65,7 +65,7 @@ jobs:
 
 
   create-release-pr:
-    name: Create release PR
+    name: Create or update release PR
 
     if: needs.version.outputs.published
     needs: version
